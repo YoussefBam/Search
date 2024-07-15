@@ -17,3 +17,59 @@ a{
     display: flex;
     gap:30px;
 }
+
+.banner{
+    display: flex;
+    justify-content: flex-start;
+}
+
+label{
+    margin:25px 35px;
+    color:#d93025;
+    font-size:20px;
+}
+
+.find{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    width:800px;
+    padding: 10px 20px;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+}
+
+.detail{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail input{
+    width:590px;
+    height:20px;
+    text-align: left;
+}
+
+.detail.special input{
+    width:240px;
+    height:20px;
+}
+
+.div-button{
+    width:800px;
+    display:flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.div-button input{
+    background-color: #357ae8;
+    color:white;
+    width:150px;
+    padding:5px;
+    font-size: 15px;
+}
+
+
