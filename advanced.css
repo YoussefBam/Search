@@ -23,7 +23,7 @@ a{
     justify-content: flex-start;
 }
 
-label{
+.banner label{
     margin:25px 35px;
     color:#d93025;
     font-size:20px;
@@ -34,16 +34,27 @@ label{
     flex-direction: column;
     gap:5px;
     width:800px;
-    padding: 10px 20px;
+    padding: 30px;
     border-bottom: 1px solid lightgrey;
     border-top: 1px solid lightgrey;
 }
+
+.find label{
+    font-size:18px;
+    color:black;
+}
+
 
 .detail{
     display: flex;
     gap: 5px;
     justify-content: space-between;
     align-items: center;
+}
+
+.detail p{
+    font-size:15px;
+    
 }
 
 .detail input{
